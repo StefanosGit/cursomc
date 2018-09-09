@@ -20,5 +20,9 @@ public class CategoriaService {
 		return categoria.orElseThrow(() -> new br.com.gregosa.cursomc.services.exceptions.ObjectNotFoundException(
 				"Objeto não encontrado! Id: " + id + ", Tipo: " + Categoria.class.getName()));
 	}
+	
+	public Categoria insert(Categoria categoria) {
+		return repo.save(categoria);
+	}
 
 }

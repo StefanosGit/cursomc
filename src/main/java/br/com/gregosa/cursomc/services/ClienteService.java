@@ -5,7 +5,6 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.gregosa.cursomc.domain.Categoria;
 import br.com.gregosa.cursomc.domain.Cliente;
 import br.com.gregosa.cursomc.repositories.ClienteRepository;
 
